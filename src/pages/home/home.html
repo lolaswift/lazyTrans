@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Ionic Blank
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <div>
+    <div>
+      <p><b>{{ 'greetingsText' | translate }}</b></p>
+    </div>
+    <ul style="list-style-type:none; padding-left: 0pt;">
+      <li style="margin-bottom:5px;"><a style="text-decoration: none;" href="#" (click)="translateToEnglish()">{{ 'englishLinkText' | translate }}</a></li>
+      <li style="margin-bottom:5px;"><a style="text-decoration: none;" href="#" (click)="translateToDutch()">{{ 'dutchLinkText' | translate }}</a></li>
+    
+    </ul>
+  </div>
+</ion-content>
